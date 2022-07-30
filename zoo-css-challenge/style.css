@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  line-height: 40px;
 }
 
 header {
@@ -81,7 +82,7 @@ footer {
   justify-content: space-between;
 }
 
-.introduction {}
+
 
 #badge {
   height: 120px;
@@ -137,6 +138,10 @@ footer {
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
+}
+
+.tigers h3 {
+  color: #9cebff;
 }
 
 .giraffe {
