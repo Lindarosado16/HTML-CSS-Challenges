@@ -63,10 +63,10 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
-  font-size: 19pt;
+  font-size: large;
 }
 
-button:hover {
+button:hover, :focus {
   background-color: #ff11d3;
 }
 
@@ -91,7 +91,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 14px;
   right: 20px;
   transition: all 2s ease;
   display: flex;
@@ -101,7 +101,7 @@ footer {
 }
 
 #badge:hover {
-  background-color: yellow;
+  background-color: rgb(54, 54, 54);
 }
 
 #badge p {
@@ -168,11 +168,12 @@ footer {
 
 
 .card {
-  display: inline-block;
+  display: inline-flex;
   background-color: white;
   padding: 20px;
   margin: 10px;
   width: 30%;
+  height: 100px;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -206,6 +207,7 @@ footer {
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
+  border-radius: 15px;
   max-width: 400px;
 }
 
@@ -219,7 +221,7 @@ footer {
 .membership {
   text-align: center;
   background-color: #fffffc;
-  width: 700px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -235,7 +237,10 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+  vertical-align: auto;
+  width: 25%;
+
 }
 
 .introduction {
